@@ -12,7 +12,8 @@ var lang = [
       { name: 'csharp', ext: "cs",  template: require('./cs.template.js') },
       { name: 'cpp', ext: "cpp", template: require('./cpp.template.js') },
       { name: 'python', ext: "py",  template: require('./py.template.js') },
-      { name: 'rust', ext: "rs",  template: require('./rs.template.js') }
+      { name: 'rust', ext: "rs",  template: require('./rs.template.js') },
+	  { name: 'glsl', ext: "glsl",  template: require('./glsl.template.js') }
     ];
 
 //***********************************************//
